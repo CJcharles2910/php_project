@@ -43,7 +43,7 @@ error_reporting(0);
       <section class="blog py-lg-4 py-md-3 py-sm-3 py-3" id="blog">
          <div class="container py-lg-5 py-md-5 py-sm-4 py-3">
             <h3 class="title text-center mb-lg-5 mb-md-4 mb-sm-4 mb-3">Our Babysitter</h3>
-            <div class="row">>
+            <div class="row">
               <?php
 
 $ret=mysqli_query($con,"select * from tblbabysitter");
