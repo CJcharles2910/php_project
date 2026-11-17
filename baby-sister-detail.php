@@ -6,14 +6,14 @@ error_reporting(0);
 <!DOCTYPE html>
 <html lang="zxx">
    <head>
-      <title>Baby Day Care Management System | Info of Babysitter</title>
+      <title>Baby Day Care Management System's | Info of Babysitter</title>
       <!--meta tags -->
       
       <script>
          addEventListener("load", function () {
          	setTimeout(hideURLbar, 0);
          }, false);
-         
+        
          function hideURLbar() {
          	window.scrollTo(0, 1);
          }
@@ -68,8 +68,7 @@ while ($row=mysqli_fetch_array($ret)) {
                      </div>
                   </div>
                </div><?php } ?>
-            </div>
-            
+            </div>   
          </div>
       </section>
       <!--//blog -->
