@@ -2,8 +2,6 @@
 include('includes/config.php');
 session_start();
 error_reporting(0);
-
-
   ?>
 <!DOCTYPE html>
 <html lang="zxx">
@@ -23,9 +21,9 @@ error_reporting(0);
       <!--booststrap-->
       <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all">
       <!--//booststrap end-->
-      <!-- font-awesome icons -->
+      <!-- font-awesome  -->
       <link href="css/font-awesome.min.css" rel="stylesheet">
-      <!-- //font-awesome icons -->
+      <!-- //font-awesome -->
       <!--stylesheets-->
       <link href="css/style.css" rel='stylesheet' type='text/css' media="all">
       <!--//stylesheets-->
@@ -65,7 +63,7 @@ while ($row=mysqli_fetch_array($ret)) {
                         <div class="event-blog-w3pvt mt-md-4 mt-3 p-0">
                            <p>Language Known: <?php  echo $row['LanguagesKnown'];?> </p>
                            <p>Expirience: <?php  echo $row['BabysitterExp'];?> </p>
-                           <p>Certificate: <?php  echo $row['Certificate'];?> </p>
+                           <p>Certificat: <?php  echo $row['Certificat'];?> </p>
                         </div>
                      </div>
                   </div>
